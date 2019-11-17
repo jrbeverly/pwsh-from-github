@@ -1,1 +1,1 @@
-Get-ChildItem (Join-Path "$PSScriptRoot/lib" *.ps1) | % { . $_.FullName}
+Get-ChildItem (Join-Path "$PSScriptRoot/lib" *.ps1) | ForEach-Object { . $_.FullName}

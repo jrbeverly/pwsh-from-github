@@ -10,7 +10,7 @@ Author: Jonathan Beverly (@jrbeverly)
 License: MIT
 Required Dependencies: None
 Optional Dependencies: None
- 
+
 .DESCRIPTION
 
 Writes a greeting message to the standard output based on the name provided.
