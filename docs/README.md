@@ -1,7 +1,31 @@
-# Powershell Library on GitHub
+# Greetings - Greet with Powershell
 
-A library on GitHub
+A powershell library that is installed from GitHub, rather than from Powershellgallery. This library uses simple commands for greeting people!
 
-# Motvations
+## Usages
 
-You can read more on [motivations](motivations.md).
+Installing from GitHub:
+
+```powershell
+# Enable installing from github
+Install-Module -Name InstallModuleFromGitHub
+
+# Install the module
+Install-ModuleFromGitHub -GitHubRepo jrbeverly/pwsh-from-github
+
+# Perform Actions
+Write-Hello -Name "World"
+Write-World -Message "LFG"
+```
+
+### Write-Hello
+
+```powershell
+Write-Hello -Name "World"
+```
+
+### Write-World
+
+```powershell
+Write-World -Message "LFG"
+```
