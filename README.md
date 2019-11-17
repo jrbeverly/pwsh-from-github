@@ -7,7 +7,7 @@ A library available on GitHub
 ## Usage
 
 ```powershell
-# Installing from GitHub
+# Enable installing from github
 Install-Module -Name InstallModuleFromGitHub
 
 # Install the module
