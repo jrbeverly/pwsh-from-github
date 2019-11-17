@@ -1,5 +1,5 @@
 @{
-RootModule = 'Library.psm1'
+RootModule = 'pwsh-from-github.psm1'
 ModuleVersion = '0.0.0.0'
 GUID = '0c34c43e-5e8a-4847-be34-da58de15578a'
 Author = 'Jonathan Beverly (jrbeverly)'
