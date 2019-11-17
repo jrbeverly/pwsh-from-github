@@ -9,7 +9,7 @@ PowerShellVersion = '4.0'
 
 FunctionsToExport = @(
     'Write-Hello',
-    'Write-World'
+    'Write-World',
 )
 ModuleList = @( 
     @{ModuleName = 'AWSPowerShell.NetCore'; ModuleVersion = '3.3.618.0';},
@@ -20,7 +20,6 @@ PrivateData = @{
         Tags = @('security','pentesting','red team','offense')
         LicenseUri = 'https://opensource.org/licenses/MIT'
         ProjectUri = 'https://github.com/jrbeverly/pwsh-from-github'
-
     }
 }
 
