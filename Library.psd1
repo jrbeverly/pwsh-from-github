@@ -1,5 +1,5 @@
 @{
-ModuleToProcess = 'Library.psm1'
+RootModule = 'Library.psm1'
 ModuleVersion = '0.0.0.0'
 GUID = '0c34c43e-5e8a-4847-be34-da58de15578a'
 Author = 'Jonathan Beverly (jrbeverly)'
@@ -9,10 +9,14 @@ PowerShellVersion = '4.0'
 
 FunctionsToExport = @(
     'Write-Hello',
-    'Write-World',
+    'Write-World'
 )
-ModuleList = @( 
-    @{ModuleName = 'AWSPowerShell.NetCore'; ModuleVersion = '3.3.618.0';},
+
+ModuleList = @(
+    @{
+        ModuleName = 'AWSPowerShell.NetCore';
+        ModuleVersion = '3.3.618.0';
+    }
 )
 
 PrivateData = @{
