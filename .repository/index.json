@@ -1,0 +1,15 @@
+{
+  "slug": "pwsh-from-github",
+  "namespace": "jrbeverly",
+  "status": "archived",
+  "icon": "icon.svg",
+  "license": {
+    "type": "MIT",
+    "content": "Jonathan Beverly <jrbeverly>"
+  },
+  "topics": [],
+  "languages": [
+    "Dockerfile",
+    "PowerShell"
+  ]
+}
