@@ -1,0 +1,11 @@
+slug: pwsh-from-github
+description: Experimenting with using GitHub to host a powershell library
+project: workbench
+namespace:
+status: archived
+icon: icon.svg
+license:
+  type: MIT
+  content: Jonathan Beverly <jrbeverly>
+  year: 2019
+topics: []
